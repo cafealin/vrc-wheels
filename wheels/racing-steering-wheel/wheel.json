@@ -1,0 +1,20 @@
+{
+  "id": "racing-steering-wheel",
+  "name": "Racing Steering Wheel",
+  "maker": "Generic",
+  "diameterMm": 350,
+  "screen": null,
+  "author": "Robert Prispilović",
+  "authorUrl": "https://skfb.ly/oSyPL",
+  "source": "Sketchfab model, converted for the app",
+  "license": "CC-BY-4.0",
+  "derivedFrom": {
+    "title": "[Free] Racing Steering Wheel",
+    "author": "Robert Prispilović",
+    "url": "https://skfb.ly/oSyPL",
+    "license": "CC-BY-4.0"
+  },
+  "version": 1,
+  "appMin": "0.3.0",
+  "notes": "Converted from the FBX source to glTF with the app's importer, ambient occlusion multiplied into the base colour, roughness and metallic maps reduced to their averages; scaled to 0.35 m wide, centred and turned to face +Z."
+}

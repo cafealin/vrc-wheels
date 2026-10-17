@@ -1,0 +1,20 @@
+{
+  "id": "lamborghini-essenza-scv12",
+  "name": "Lamborghini Essenza SCV12",
+  "maker": "Lamborghini",
+  "diameterMm": 320,
+  "screen": { "note": "fitted; the size is measured from the glb" },
+  "author": "SDC PERFORMANCE",
+  "authorUrl": "https://sketchfab.com/3d-models/race-steering-wheel-lamborghini-essenza-scv12-7a4f9e4e5bb84a4f9d4f4b1e8d2a6c01",
+  "source": "Sketchfab model, converted and fitted for the app",
+  "license": "CC-BY-4.0",
+  "derivedFrom": {
+    "title": "Race Steering wheel - Lamborghini Essenza SCV12",
+    "author": "SDC PERFORMANCE",
+    "url": "https://skfb.ly/opqyP",
+    "license": "CC-BY-4.0"
+  },
+  "version": 1,
+  "appMin": "0.3.0",
+  "notes": "Converted from the .blend source to glTF (Blender), modifiers applied and parts joined, scaled to 0.32 m wide, centred and turned to face +Z, textures reduced to 2048 px. The gauge graphic is painted black so the app's dashboard draws on a dark screen; the screen fit ships in the file."
+}

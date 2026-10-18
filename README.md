@@ -7,17 +7,19 @@ in the car where your real one is, turning with the game, with a live dash on it
 Every model here is free to use and share under [CC BY 4.0](LICENSE.md). The app shows the author's name on the
 model.
 
+**Looking for a wheel that isn't here?** [MORE-WHEELS.md](MORE-WHEELS.md) has more models you can download,
+straight from the wheel makers and the community.
+
 ## Wheels
 
 The catalogue is [index.json](index.json); the app reads it when you open *Get a wheel…*. Each wheel lives in
 `wheels/<id>/` as `wheel.glb` (the model), `wheel.json` (name, maker, author, licence) and `preview.png`.
 
-## More wheels: from the makers and the community
+## More wheels you can download
 
-[ELSEWHERE.md](ELSEWHERE.md) lists wheel models published elsewhere: official files from the wheel makers (like
-Simucube's Savu) and openly licensed models by fans and DIY builders, with links, licences and how to load them in
-the app. Most can't be hosted here, so you download them yourself. The same list is in
-[elsewhere.json](elsewhere.json) for tools.
+Some wheels can't be hosted here, like the 3D files Simucube publishes for its own wheels, or models fans have made
+under their own licences. [MORE-WHEELS.md](MORE-WHEELS.md) lists them with links, licences and how to get them into
+the app. The same list is in [more-wheels.json](more-wheels.json) if you're building a tool.
 
 ## Want a wheel that isn't here?
 

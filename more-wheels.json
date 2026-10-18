@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "about": "Wheel models published elsewhere, by the wheel makers or the community. Download them yourself from the link; most can't be hosted here because of their licence. Checked by hand; tools/build_elsewhere.py writes ELSEWHERE.md from this file.",
+  "about": "Wheel models you can download from the makers or the community but can't be hosted in this repo. Checked by hand; tools/build_more_wheels.py turns this file into MORE-WHEELS.md.",
   "wheels": [
     {
       "id": "simucube-savu-sport",
@@ -15,7 +15,7 @@
       "licenseText": "Granite Devices Inc. is the copyright owner of all models and drawings. All rights reserved. For commercial use or reproduction, contact Granite Devices for permissions.",
       "rehost": false,
       "signIn": false,
-      "notes": "Official CAD of the wheel, named \"Simplified\" by Simucube. STEP needs converting before the app can load it.",
+      "notes": "Simucube's own model of the wheel. It's a STEP file, so convert it before loading it in the app (see below).",
       "checked": "2026-10-18"
     },
     {
@@ -31,7 +31,7 @@
       "licenseText": "Granite Devices Inc. is the copyright owner of all models and drawings. All rights reserved. For commercial use or reproduction, contact Granite Devices for permissions.",
       "rehost": false,
       "signIn": false,
-      "notes": "Official CAD of the wheel, named \"Simplified\" by Simucube. STEP needs converting before the app can load it.",
+      "notes": "Simucube's own model of the wheel. It's a STEP file, so convert it before loading it in the app (see below).",
       "checked": "2026-10-18"
     },
     {
@@ -46,7 +46,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -61,7 +61,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -76,7 +76,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -91,7 +91,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -106,7 +106,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -121,7 +121,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -136,7 +136,7 @@
       "license": "CC-BY-NC-ND-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's own files for its DIY wheel kit (full assembly). Non-commercial, no derivatives.",
+      "notes": "Turn Racing's own files for building their DIY wheel, the whole assembly. Personal use only, no edits.",
       "checked": "2026-10-18"
     },
     {
@@ -151,7 +151,7 @@
       "license": "CC-BY-NC-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's files for its DIY wheel kit. Non-commercial.",
+      "notes": "Turn Racing's files for building their DIY wheel. Personal use only.",
       "checked": "2026-10-18"
     },
     {
@@ -166,7 +166,7 @@
       "license": "CC-BY-NC-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "Turn Racing's files for its DIY wheel kit. Non-commercial.",
+      "notes": "Turn Racing's files for building their DIY wheel. Personal use only.",
       "checked": "2026-10-18"
     },
     {
@@ -174,14 +174,14 @@
       "name": "Logitech G29",
       "maker": "Logitech",
       "kind": "community",
-      "author": "gau.01juichi8 (Sketchfab, fan-made)",
+      "author": "TAA36598SansD (Sketchfab, fan-made)",
       "url": "https://sketchfab.com/3d-models/g29-febfe0eaaa2245069a6d1a7dc29e1ee1",
       "files": "Sketchfab download (glTF, GLB and others); 313k faces, untextured",
       "model": "full",
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": true,
-      "notes": "The original download, with the base and pedals. The wheel alone is in this library as logitech-g29 (in the app: Get a wheel…).",
+      "notes": "The original, with the base and pedals. The wheel on its own is already in the library: Get a wheel… in the app.",
       "checked": "2026-10-18"
     },
     {
@@ -196,7 +196,7 @@
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": null,
-      "notes": "A 3D-printable DIY wheel. CC BY, so it can join this library once converted.",
+      "notes": "A 3D-printable wheel. Free to share, so it can be added to the library once someone cleans it up.",
       "checked": "2026-10-18"
     },
     {
@@ -211,7 +211,7 @@
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": null,
-      "notes": "A 3D-printable DIY wheel. CC BY, so it can join this library once converted.",
+      "notes": "A 3D-printable wheel. Free to share, so it can be added to the library once someone cleans it up.",
       "checked": "2026-10-18"
     },
     {
@@ -226,7 +226,7 @@
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": null,
-      "notes": "A 3D-printable DIY wheel without the backplate or paddles. CC BY.",
+      "notes": "A 3D-printable wheel, without the backplate or paddles. Free to share.",
       "checked": "2026-10-18"
     },
     {
@@ -241,7 +241,7 @@
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": null,
-      "notes": "A 3D-printable DIY wheel. CC BY.",
+      "notes": "A 3D-printable wheel. Free to share.",
       "checked": "2026-10-18"
     },
     {
@@ -256,7 +256,7 @@
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": null,
-      "notes": "A 3D-printable DIY wheel. CC BY.",
+      "notes": "A 3D-printable wheel for the T300. Free to share.",
       "checked": "2026-10-18"
     },
     {
@@ -271,7 +271,7 @@
       "license": "CC0-1.0",
       "rehost": true,
       "signIn": null,
-      "notes": "A 3D-printable rim for the MOZA ES hub. Public domain.",
+      "notes": "A 3D-printable rim for the MOZA ES. Public domain, so do anything with it.",
       "checked": "2026-10-18"
     },
     {
@@ -286,7 +286,7 @@
       "license": "CC-BY-NC-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "A popular 3D-printable DIY wheel. Non-commercial.",
+      "notes": "A popular 3D-printable wheel. Personal use only.",
       "checked": "2026-10-18"
     },
     {
@@ -301,7 +301,7 @@
       "license": "CC-BY-NC-SA-4.0",
       "rehost": false,
       "signIn": null,
-      "notes": "A 3D-printable F1 style rim for the G29. Non-commercial, share-alike.",
+      "notes": "A 3D-printable F1 rim for the G29. Personal use only, and edits must keep the same licence.",
       "checked": "2026-10-18"
     }
   ],
@@ -326,6 +326,6 @@
       "Leo Bodnar",
       "Sim Racing Machines"
     ],
-    "notes": "No official 3D model of their wheels found (drawings, drilling templates or accessory prints only). MOZA and Thrustmaster share 3D-printable accessories on Printables under non-commercial licences, and MOZA a model of the R3 and R12 bases."
+    "notes": "They only publish drawings, drilling templates or printable accessories. MOZA and Thrustmaster post printable accessories on Printables (personal use only), and MOZA also has a model of its R3 and R12 bases."
   }
 }

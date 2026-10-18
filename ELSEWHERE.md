@@ -35,7 +35,7 @@ Models made by fans or DIY builders. The CC BY and CC0 ones can be converted and
 
 | Wheel | By | Files | Licence | Notes |
 |---|---|---|---|---|
-| [Logitech G29](https://sketchfab.com/3d-models/g29-febfe0eaaa2245069a6d1a7dc29e1ee1) | gau.01juichi8 (Sketchfab, fan-made) | 3D model: Sketchfab download (glTF, GLB and others); 313k faces, untextured | CC BY 4.0 | CC BY, so it can join this library once someone converts and checks it (hub at the origin, real size, facing +Z). Sign-in needed. |
+| [Logitech G29](https://sketchfab.com/3d-models/g29-febfe0eaaa2245069a6d1a7dc29e1ee1) | gau.01juichi8 (Sketchfab, fan-made) | 3D model: Sketchfab download (glTF, GLB and others); 313k faces, untextured | CC BY 4.0 | The original download, with the base and pedals. The wheel alone is in this library as logitech-g29 (in the app: Get a wheel…). Sign-in needed. |
 | [Ferrari 488 GT3 style DIY wheel](https://www.printables.com/model/924289-ferrari-488-gt3-steering-wheel) | Tom Hamblyn (Printables) | 3D print: DXF, STL; 2 MB | CC BY 4.0 | A 3D-printable DIY wheel. CC BY, so it can join this library once converted. |
 | [Ferrari GT3 style open wheel for the Thrustmaster T300](https://www.printables.com/model/841971-t300-ferrari-gt3-open-wheel) | nathjay (Printables) | 3D print: STL, 1 MB | CC BY 4.0 | A 3D-printable DIY wheel. CC BY. |
 | [Formula style rim for the MOZA ES](https://www.printables.com/model/947471-moza-es-formula-type-steering-wheel) | Corduroy Roy (Printables) | 3D print: STEP, STL; 3 MB | CC0 (public domain) | A 3D-printable rim for the MOZA ES hub. Public domain. |

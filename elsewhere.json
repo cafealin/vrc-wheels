@@ -181,7 +181,7 @@
       "license": "CC-BY-4.0",
       "rehost": true,
       "signIn": true,
-      "notes": "CC BY, so it can join this library once someone converts and checks it (hub at the origin, real size, facing +Z).",
+      "notes": "The original download, with the base and pedals. The wheel alone is in this library as logitech-g29 (in the app: Get a wheel…).",
       "checked": "2026-10-18"
     },
     {
@@ -307,7 +307,25 @@
   ],
   "none": {
     "checked": "2026-10-18",
-    "makers": ["Fanatec", "Thrustmaster", "Logitech G", "MOZA Racing", "Simagic", "Asetek SimSports", "VRS", "Cammus", "Conspit", "Cube Controls", "Ascher Racing", "Precision Sim Engineering", "Gomez Sim Industries", "Sim-Lab", "Heusinkveld", "Leo Bodnar", "Sim Racing Machines"],
+    "makers": [
+      "Fanatec",
+      "Thrustmaster",
+      "Logitech G",
+      "MOZA Racing",
+      "Simagic",
+      "Asetek SimSports",
+      "VRS",
+      "Cammus",
+      "Conspit",
+      "Cube Controls",
+      "Ascher Racing",
+      "Precision Sim Engineering",
+      "Gomez Sim Industries",
+      "Sim-Lab",
+      "Heusinkveld",
+      "Leo Bodnar",
+      "Sim Racing Machines"
+    ],
     "notes": "No official 3D model of their wheels found (drawings, drilling templates or accessory prints only). MOZA and Thrustmaster share 3D-printable accessories on Printables under non-commercial licences, and MOZA a model of the R3 and R12 bases."
   }
 }

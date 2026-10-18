@@ -32,6 +32,33 @@
       "updated": "2026-10-17"
     },
     {
+      "id": "logitech-g29",
+      "name": "Logitech G29",
+      "maker": "Logitech",
+      "diameterMm": 270,
+      "screen": null,
+      "author": "TAA36598SansD",
+      "authorUrl": "https://sketchfab.com/gau.01juichi8",
+      "source": "Sketchfab model, the wheel only, converted and fitted for the app",
+      "license": "CC-BY-4.0",
+      "derivedFrom": {
+        "title": "G29",
+        "author": "TAA36598SansD",
+        "url": "https://sketchfab.com/3d-models/g29-febfe0eaaa2245069a6d1a7dc29e1ee1",
+        "license": "CC-BY-4.0"
+      },
+      "version": 1,
+      "appMin": "0.3.6",
+      "notes": "The wheel only: the base, the pedal set and a stray part are left out (the app turns the whole model). SketchUp's back-face copies removed, one-sided faces turned outwards, the rim's 24° tilt taken out so it faces +Z, scaled to 0.27 m across and centred on the hub. Colours set to the real wheel's finish (black leather rim, brushed metal spokes); the source has no textures.",
+      "triangles": 78762,
+      "sizeBytes": 2428388,
+      "sha256": "98f7706b5dbad4d3b70855be8659211c1e297b08062cacbfa037e29f7c352b5b",
+      "widthMm": 270,
+      "glb": "wheels/logitech-g29/wheel.glb",
+      "preview": "wheels/logitech-g29/preview.png",
+      "updated": "2026-10-18"
+    },
+    {
       "id": "racing-steering-wheel",
       "name": "Racing Steering Wheel",
       "maker": "Generic",

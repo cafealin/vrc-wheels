@@ -1,4 +1,4 @@
-# Every push and pull request: the wheels are valid and index.json matches them.
+# Every push and pull request: the wheels are valid, index.json matches them, and ELSEWHERE.md matches elsewhere.json.
 name: check
 on:
   push:
@@ -13,3 +13,4 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python tools/build_index.py --check
+      - run: python tools/build_elsewhere.py --check

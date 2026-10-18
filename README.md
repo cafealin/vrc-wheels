@@ -12,6 +12,13 @@ model.
 The catalogue is [index.json](index.json); the app reads it when you open *Get a wheel…*. Each wheel lives in
 `wheels/<id>/` as `wheel.glb` (the model), `wheel.json` (name, maker, author, licence) and `preview.png`.
 
+## More wheels: from the makers and the community
+
+[ELSEWHERE.md](ELSEWHERE.md) lists wheel models published elsewhere: official files from the wheel makers (like
+Simucube's Savu) and openly licensed models by fans and DIY builders, with links, licences and how to load them in
+the app. Most can't be hosted here, so you download them yourself. The same list is in
+[elsewhere.json](elsewhere.json) for tools.
+
 ## Want a wheel that isn't here?
 
 Open an issue with the wheel's name. If you own it, say so: the fastest way to get a wheel in here is for an

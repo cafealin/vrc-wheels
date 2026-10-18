@@ -1,33 +1,34 @@
 # Virtual Real Cockpit wheel library
 
-Ready-to-use 3D models of real steering wheels for [Virtual Real Cockpit](https://virtualrealcockpit.com), the
-VR overlay for sim racing. Pick your wheel in the app (Wheel › model select › *Get a wheel…*) and it shows up
-in the car where your real one is, turning with the game, with a live dash on its screen if it has one.
+3D models of real sim racing wheels for [Virtual Real Cockpit](https://virtualrealcockpit.com), my VR overlay for
+sim racing. In the app, go to Wheel › model select › *Get a wheel…* and pick yours. It then shows up in the car
+where your real wheel is and turns with the game, and if it has a screen you can put a live dash on it.
 
-Every model here is free to use and share under [CC BY 4.0](LICENSE.md). The app shows the author's name on the
-model.
+All the models here are free to use and share under [CC BY 4.0](LICENSE.md), and the app shows who made each one.
 
-**Looking for a wheel that isn't here?** [MORE-WHEELS.md](MORE-WHEELS.md) has more models you can download,
-straight from the wheel makers and the community.
+If your wheel isn't here, have a look at [MORE-WHEELS.md](MORE-WHEELS.md). It has more models you can download,
+from the wheel makers and from other people.
 
-## Wheels
+## What's in here
 
-The catalogue is [index.json](index.json); the app reads it when you open *Get a wheel…*. Each wheel lives in
-`wheels/<id>/` as `wheel.glb` (the model), `wheel.json` (name, maker, author, licence) and `preview.png`.
+[index.json](index.json) is the list the app reads when you open *Get a wheel…*. Each wheel has its own folder in
+`wheels/` with the model (`wheel.glb`), its details (`wheel.json`: name, maker, author and licence) and a preview
+picture.
 
-## More wheels you can download
+## More wheels to download
 
-Some wheels can't be hosted here, like the 3D files Simucube publishes for its own wheels, or models fans have made
-under their own licences. [MORE-WHEELS.md](MORE-WHEELS.md) lists them with links, licences and how to get them into
-the app. The same list is in [more-wheels.json](more-wheels.json) if you're building a tool.
+Some models can't live here because of their licence, like the files Simucube puts out for its own wheels.
+[MORE-WHEELS.md](MORE-WHEELS.md) links to them and explains how to get them into the app. The same list is in
+[more-wheels.json](more-wheels.json) if you'd like to use it in a tool.
 
-## Want a wheel that isn't here?
+## Asking for a wheel
 
-Open an issue with the wheel's name. If you own it, say so: the fastest way to get a wheel in here is for an
-owner to scan it with their phone. The app's manual has a chapter on it, *Scan your wheel*, and we'll help with
-the cleanup.
+Please open an issue with the wheel's name. If you own the wheel, let me know, because the quickest way to get it
+in here is for an owner to scan it with their phone. The app's manual has a chapter on it (*Scan your wheel*), and
+I'm happy to help with the cleanup afterwards.
 
-## Contributing
+## Adding a wheel
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). The short version: your own model or a CC BY one with the author named,
-hub at the origin, facing +Z, real size in metres, under 300k triangles, one `wheel.glb` with textures inside.
+Thanks for helping out! [CONTRIBUTING.md](CONTRIBUTING.md) has the details.
+In short, it needs to be your own model or a CC BY one with its author named, centred on the hub, facing +Z, at
+its real size in metres, under 300k triangles, and a single `wheel.glb` with the textures inside.

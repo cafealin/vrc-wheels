@@ -1,53 +1,56 @@
-# Contributing a wheel
+# Adding a wheel
 
-One pull request per wheel. A maintainer renders the preview and merges.
+Thanks for helping to grow the library!
 
-## Checklist
+Please send one pull request per wheel. I'll render the preview and merge it.
 
-1. **You may share it.** You made the model, or it is CC BY and you name the author in `derivedFrom`. No rips of
-   paid or non-downloadable models. We take a model down if the maker of the wheel asks.
-2. **Hub at the origin, facing +Z, metres.** The steering shaft centre is at 0,0,0, the face of the wheel points
-   towards +Z (the driver), and the model is its real size (a 300 mm wheel is 0.30 m across X).
-   `python tools/normalize_wheel.py in.glb wheel.glb --width 0.30` does the centring and scaling; use
-   `--axes` to turn it.
-3. **Light enough for VR.** Under 300k triangles, textures 2048 px or smaller, one `.glb` with the textures
-   embedded and all node transforms applied.
-4. **Checked in the app.** Load it with *Load your own model…*: the pivot sits at the hub, the gloves grip the
-   rim, `Test steering` turns it about its centre. If the wheel has a screen, fit it in the app (Wheel › SCREEN ›
-   FIT) and export the model again so the fit is saved in the file.
-5. **`wheel.json`** filled in (copy one from `wheels/`), then `python tools/build_index.py` passes with no
-   problems. Don't edit `index.json` by hand; the script writes it.
+## Before you send it
 
-## Folder
+1. **You're allowed to share it.** You made the model yourself, or it's CC BY and you name its author in
+   `derivedFrom`. Please don't send rips of paid or non-downloadable models. If a wheel's maker asks me to take a
+   model down, I will.
+2. **It's centred on the hub, faces +Z and is in metres.** The centre of the steering shaft is at 0,0,0, the face of
+   the wheel points towards +Z (the driver), and it's the real size, so a 300 mm wheel is 0.30 m across X.
+   `python tools/normalize_wheel.py in.glb wheel.glb --width 0.30` does the centring and scaling, and `--axes`
+   turns it if it's facing the wrong way.
+3. **It's light enough for VR.** Under 300k triangles, textures at 2048 px or smaller, and a single `.glb` with the
+   textures embedded and the node transforms applied.
+4. **It works in the app.** Load it with *Load your own model…* and check that the pivot sits at the hub, the gloves
+   grip the rim and `Test steering` turns it about its centre. If the wheel has a screen, fit it in the app
+   (Wheel › SCREEN › FIT) and export the model again so the fit is saved in the file.
+5. **`wheel.json` is filled in.** Copy one from `wheels/`, then run `python tools/build_index.py` and make sure it
+   doesn't report any problems. Please don't edit `index.json` by hand, the script writes it.
+
+## The folder
 
 ```
 wheels/<id>/
   wheel.glb      the model
   wheel.json     the fields below
-  preview.png    rendered by a maintainer (1200 x 800)
-  photos/        optional: your reference photos
+  preview.png    I render this one (1200 x 800)
+  photos/        optional, your reference photos
 ```
 
-`<id>` is kebab-case: `simagic-gt-neo`, `logitech-rs`, `moza-gs-v2p`.
+`<id>` is lower case with dashes, like `simagic-gt-neo`, `logitech-rs` or `moza-gs-v2p`.
 
 ## wheel.json
 
-| Field | What |
+| Field | What goes in it |
 |---|---|
 | `id` | the folder name |
-| `name`, `maker` | as on the box: `GT Neo`, `Simagic` |
+| `name`, `maker` | as on the box, like `GT Neo` and `Simagic` |
 | `diameterMm` | the real rim diameter |
-| `screen` | `null`, or `{}` for a wheel with a display (the size is read from the glb) |
+| `screen` | `null`, or `{}` if the wheel has a display (the size is read from the glb) |
 | `author`, `authorUrl` | you |
-| `source` | how it was made: `photogrammetry (RealityScan), cleaned in Blender`, `modelled in Blender from the maker's drawings` |
+| `source` | how it was made, like `photogrammetry (RealityScan), cleaned in Blender` or `modelled in Blender from the maker's drawings` |
 | `license` | `CC-BY-4.0` |
 | `derivedFrom` | only for conversions: `{ "title", "author", "url", "license" }` of the original |
-| `version` | 1, then +1 per change to the glb |
-| `appMin` | the oldest app version the model works with; `0.3.6` unless you know otherwise |
+| `version` | 1, then +1 every time the glb changes |
+| `appMin` | the oldest app version the model works with, `0.3.6` unless you know otherwise |
 | `notes` | optional, anything the next person should know |
 
 ## Scanning your wheel
 
 If you have the wheel and a phone, you can make a model in about an hour. The manual chapter *Scan your wheel*
-walks through it: masking tape on the shiny parts, three passes of photos, RealityScan or Polycam, ten minutes of
-Blender cleanup. Open an issue if you get stuck and attach the export; we'll finish it.
+goes through it: masking tape on the shiny parts, three rounds of photos, RealityScan or Polycam, then about ten
+minutes of cleanup in Blender. If you get stuck, please open an issue and attach the export, and I'll finish it off.

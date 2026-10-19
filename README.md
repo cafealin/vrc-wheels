@@ -29,6 +29,8 @@ I'm happy to help with the cleanup afterwards.
 
 ## Adding a wheel
 
-Thanks for helping out! [CONTRIBUTING.md](CONTRIBUTING.md) has the details.
+The easiest way is from the app: Wheel page › model list › *Share a wheel…*. I'll check it and add it here with
+your name on it. You can also do it on GitHub, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 In short, it needs to be your own model or a CC BY one with its author named, centred on the hub, facing +Z, at
 its real size in metres, under 300k triangles, and a single `wheel.glb` with the textures inside.

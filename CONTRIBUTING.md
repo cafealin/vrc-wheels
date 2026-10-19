@@ -2,7 +2,12 @@
 
 Thanks for helping to grow the library!
 
-Please send one pull request per wheel. I'll render the preview and merge it.
+The easiest way is from the app. Load your model in Virtual Real Cockpit and set it up (pivot, alignment and the
+screen fit if it has one), then pick *Share a wheel…* in the Wheel page's model list. Choose the model, fill in its
+name and how you'd like to be credited, tick both boxes and press Send. I'll take care of the rest (centring, the
+preview, the catalogue entry and the pull request), and you don't need a GitHub account.
+
+On GitHub, please send one pull request per wheel. I'll render the preview and merge it.
 
 ## Before you send it
 
@@ -48,6 +53,20 @@ wheels/<id>/
 | `version` | 1, then +1 every time the glb changes |
 | `appMin` | the oldest app version the model works with, `0.3.6` unless you know otherwise |
 | `notes` | optional, anything the next person should know |
+
+## For me: wheels shared from the app
+
+Each one arrives as an email to support@ with a private link that lasts 60 days. In this folder:
+
+```
+python tools/wheel_inbox.py "<the Model: link>"
+```
+
+It downloads the model, centres it without changing its size, carries the sender's screen fit into the model,
+writes `wheel.json` with the sender as the author, renders `preview.png` with the app's `cxr_arms_preview`,
+rebuilds `index.json` and opens a pull request on a `wheel/<id>` branch. Then check the preview and merge it, or
+close the PR. `--axes` turns the model, `--width` rescales it, `--maker`, `--name` and `--id` fix the naming, and
+`--no-pr` stops before git. Reply to the email if there's anything to ask the sender.
 
 ## Scanning your wheel
 

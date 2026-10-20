@@ -1,0 +1,13 @@
+{
+  "id": "simagic-neo-x",
+  "name": "Neo X",
+  "maker": "Simagic",
+  "diameterMm": 330,
+  "screen": null,
+  "author": "mr_mojo02",
+  "source": "Shared from the app (Virtual Real Cockpit 0.3.7)",
+  "license": "CC-BY-4.0",
+  "version": 1,
+  "appMin": "0.3.7",
+  "notes": "Shared on 2026-10-20."
+}

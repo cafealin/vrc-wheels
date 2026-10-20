@@ -84,6 +84,26 @@
       "glb": "wheels/racing-steering-wheel/wheel.glb",
       "preview": "wheels/racing-steering-wheel/preview.png",
       "updated": "2026-10-17"
+    },
+    {
+      "id": "simagic-neo-x",
+      "name": "Neo X",
+      "maker": "Simagic",
+      "diameterMm": 330,
+      "screen": null,
+      "author": "mr_mojo02",
+      "source": "Shared from the app (Virtual Real Cockpit 0.3.7)",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Shared on 2026-10-20.",
+      "triangles": 219961,
+      "sizeBytes": 5756304,
+      "sha256": "4c64bb65a016048ad64773f40098eaa699abf5fafa32921c0b2630c89a6cb336",
+      "widthMm": 330,
+      "glb": "wheels/simagic-neo-x/wheel.glb",
+      "preview": "wheels/simagic-neo-x/preview.png",
+      "updated": "2026-10-20"
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "id": "moza-ks-pro",
+  "name": "KS Pro",
+  "maker": "Moza",
+  "diameterMm": 300,
+  "screen": {},
+  "author": "Virtual Real Cockpit",
+  "authorUrl": "https://virtualrealcockpit.com",
+  "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
+  "license": "CC-BY-4.0",
+  "version": 1,
+  "appMin": "0.3.7",
+  "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte, the screen flattened and black, with the screen fit in the file. Real size, centred on the hub, facing +Z."
+}

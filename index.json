@@ -104,6 +104,30 @@
       "updated": "2026-10-22"
     },
     {
+      "id": "moza-ks-pro",
+      "name": "KS Pro",
+      "maker": "Moza",
+      "diameterMm": 300,
+      "screen": {
+        "widthMm": 107.5,
+        "heightMm": 38.9
+      },
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte, the screen flattened and black, with the screen fit in the file. Real size, centred on the hub, facing +Z.",
+      "triangles": 209715,
+      "sizeBytes": 12739704,
+      "sha256": "c35ef841f6db94735b7e8aa4c49fe477080c20c0f98975e4866914fe8b94cec4",
+      "widthMm": 300,
+      "glb": "wheels/moza-ks-pro/wheel.glb",
+      "preview": "wheels/moza-ks-pro/preview.png",
+      "updated": "2026-10-22"
+    },
+    {
       "id": "racing-steering-wheel",
       "name": "Racing Steering Wheel",
       "maker": "Generic",

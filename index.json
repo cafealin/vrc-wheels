@@ -83,6 +83,27 @@
       "updated": "2026-10-18"
     },
     {
+      "id": "logitech-rs-round-wheel",
+      "name": "RS Round Wheel",
+      "maker": "Logitech",
+      "diameterMm": 291,
+      "screen": null,
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte. Real size, centred on the hub, facing +Z.",
+      "triangles": 204915,
+      "sizeBytes": 10391220,
+      "sha256": "4d47aa0553e9883d025f316cd1a729344c84da28f1ee3a765951320a6cf824e9",
+      "widthMm": 291,
+      "glb": "wheels/logitech-rs-round-wheel/wheel.glb",
+      "preview": "wheels/logitech-rs-round-wheel/preview.png",
+      "updated": "2026-10-22"
+    },
+    {
       "id": "racing-steering-wheel",
       "name": "Racing Steering Wheel",
       "maker": "Generic",

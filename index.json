@@ -2,6 +2,30 @@
   "schema": 1,
   "wheels": [
     {
+      "id": "fanatec-csl-elite-mclaren-gt3-v2",
+      "name": "CSL Elite McLaren GT3 V2",
+      "maker": "Fanatec",
+      "diameterMm": 300,
+      "screen": {
+        "widthMm": 22.2,
+        "heightMm": 13.1
+      },
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte, the screen flattened and black, with the screen fit in the file. Real size, centred on the hub, facing +Z.",
+      "triangles": 220724,
+      "sizeBytes": 15544736,
+      "sha256": "76aafc21c683d09b2c1dae66ebeb46595cbe90177b03be0fef381f41b8283002",
+      "widthMm": 300,
+      "glb": "wheels/fanatec-csl-elite-mclaren-gt3-v2/wheel.glb",
+      "preview": "wheels/fanatec-csl-elite-mclaren-gt3-v2/preview.png",
+      "updated": "2026-10-22"
+    },
+    {
       "id": "lamborghini-essenza-scv12",
       "name": "Lamborghini Essenza SCV12",
       "maker": "Lamborghini",

@@ -44,16 +44,16 @@
         "url": "https://skfb.ly/opqyP",
         "license": "CC-BY-4.0"
       },
-      "version": 1,
+      "version": 2,
       "appMin": "0.3.0",
-      "notes": "Converted from the .blend source to glTF (Blender), modifiers applied and parts joined, scaled to 0.32 m wide, centred and turned to face +Z, textures reduced to 2048 px. The gauge graphic is painted black so the app's dashboard draws on a dark screen; the screen fit ships in the file.",
+      "notes": "Converted from the .blend source to glTF (Blender), modifiers applied and parts joined, scaled to 0.32 m wide, centred and turned to face +Z, textures reduced to 2048 px. The gauge graphic is painted black so the app's dashboard draws on a dark screen; the screen fit ships in the file. Version 2: the grips, modelled inside out, turned the right way out (they looked hollow from below), and metallic / roughness set per part (suede grips, satin carbon, metal knobs and paddles).",
       "triangles": 328132,
-      "sizeBytes": 12964556,
-      "sha256": "c831981580e2068a9147945f47dce42d978a14853030afaa5a182c8735ed530a",
+      "sizeBytes": 12964276,
+      "sha256": "a9ee6cde2129222714aaf29b4ae623d30b209a4eeec7799308105637c87e3f50",
       "widthMm": 320,
       "glb": "wheels/lamborghini-essenza-scv12/wheel.glb",
       "preview": "wheels/lamborghini-essenza-scv12/preview.png",
-      "updated": "2026-10-17"
+      "updated": "2026-10-22"
     },
     {
       "id": "logitech-g29",

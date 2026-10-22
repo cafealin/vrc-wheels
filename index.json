@@ -86,6 +86,27 @@
       "updated": "2026-10-17"
     },
     {
+      "id": "simagic-gt-neo",
+      "name": "GT Neo",
+      "maker": "Simagic",
+      "diameterMm": 300,
+      "screen": null,
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte. Real size, centred on the hub, facing +Z.",
+      "triangles": 203981,
+      "sizeBytes": 12283404,
+      "sha256": "428986f532f2971b67f70a1bf0eca527fde10ef1590ac69a518938a793def2d7",
+      "widthMm": 300,
+      "glb": "wheels/simagic-gt-neo/wheel.glb",
+      "preview": "wheels/simagic-gt-neo/preview.png",
+      "updated": "2026-10-22"
+    },
+    {
       "id": "simagic-neo-x",
       "name": "Neo X",
       "maker": "Simagic",

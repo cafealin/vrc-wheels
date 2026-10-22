@@ -8,7 +8,7 @@
   "authorUrl": "https://virtualrealcockpit.com",
   "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
   "license": "CC-BY-4.0",
-  "version": 1,
+  "version": 2,
   "appMin": "0.3.7",
-  "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte, the screen flattened and black, with the screen fit in the file. Real size, centred on the hub, facing +Z."
+  "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte, the screen flattened and black, with the screen fit in the file. Real size, centred on the hub, facing +Z. Version 2: it turns about the real steering shaft (2 mm below the model's centre)."
 }

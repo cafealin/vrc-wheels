@@ -155,6 +155,30 @@
       "updated": "2026-10-17"
     },
     {
+      "id": "simagic-fx-pro",
+      "name": "FX Pro",
+      "maker": "Simagic",
+      "diameterMm": 290,
+      "screen": {
+        "widthMm": 93.7,
+        "heightMm": 50.6
+      },
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Made with Meshy AI from photos of the real wheel, cleaned up in Blender",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Made with Meshy AI (paid plan) from my own photos. Cleaned up in Blender: labels fixed against photos of the real wheel, matte materials where the real wheel is matte, the screen flattened and black, with the screen fit in the file. Real size, centred on the hub, facing +Z.",
+      "triangles": 217925,
+      "sizeBytes": 14292944,
+      "sha256": "cd7106c62827737f23f63f1e797796070199a9349fe3d55cbbc83ecd4ebcf6c8",
+      "widthMm": 290,
+      "glb": "wheels/simagic-fx-pro/wheel.glb",
+      "preview": "wheels/simagic-fx-pro/preview.png",
+      "updated": "2026-10-22"
+    },
+    {
       "id": "simagic-gt-neo",
       "name": "GT Neo",
       "maker": "Simagic",

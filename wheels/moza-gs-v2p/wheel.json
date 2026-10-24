@@ -1,0 +1,14 @@
+{
+  "id": "moza-gs-v2p",
+  "name": "GS V2P",
+  "maker": "Moza",
+  "diameterMm": 300,
+  "screen": null,
+  "author": "Virtual Real Cockpit",
+  "authorUrl": "https://virtualrealcockpit.com",
+  "source": "Modelled by a 3D artist I paid for it, from the real wheel",
+  "license": "CC-BY-4.0",
+  "version": 1,
+  "appMin": "0.3.7",
+  "notes": "My own wheel, the one in the app's videos. I paid a 3D modeller to make it and I have the rights to share it. Labels fixed against the real wheel. Real size, centred on the hub, facing +Z. The screen isn't fitted yet. 383k triangles, a bit above the 300k we aim for."
+}

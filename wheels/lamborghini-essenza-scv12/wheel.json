@@ -16,7 +16,7 @@
     "url": "https://skfb.ly/opqyP",
     "license": "CC-BY-4.0"
   },
-  "version": 1,
+  "version": 2,
   "appMin": "0.3.0",
-  "notes": "Converted from the .blend source to glTF (Blender), modifiers applied and parts joined, scaled to 0.32 m wide, centred and turned to face +Z, textures reduced to 2048 px. The gauge graphic is painted black so the app's dashboard draws on a dark screen; the screen fit ships in the file."
+  "notes": "Converted from the .blend source to glTF (Blender), modifiers applied and parts joined, scaled to 0.32 m wide, centred and turned to face +Z, textures reduced to 2048 px. The gauge graphic is painted black so the app's dashboard draws on a dark screen; the screen fit ships in the file. Version 2: the grips, modelled inside out, turned the right way out (they looked hollow from below), and metallic / roughness set per part (suede grips, satin carbon, metal knobs and paddles)."
 }

@@ -104,6 +104,27 @@
       "updated": "2026-10-22"
     },
     {
+      "id": "moza-gs-v2p",
+      "name": "GS V2P",
+      "maker": "Moza",
+      "diameterMm": 300,
+      "screen": null,
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Modelled by a 3D artist I paid for it, from the real wheel",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "My own wheel, the one in the app's videos. I paid a 3D modeller to make it and I have the rights to share it. Labels fixed against the real wheel. Real size, centred on the hub, facing +Z. The screen isn't fitted yet. 383k triangles, a bit above the 300k we aim for.",
+      "triangles": 382658,
+      "sizeBytes": 19092452,
+      "sha256": "27cb6d37965540e6044798a6e4c1613b5f1255bdc63b0d7615a617b31cbabeb9",
+      "widthMm": 300,
+      "glb": "wheels/moza-gs-v2p/wheel.glb",
+      "preview": "wheels/moza-gs-v2p/preview.png",
+      "updated": "2026-10-24"
+    },
+    {
       "id": "moza-ks-pro",
       "name": "KS Pro",
       "maker": "Moza",

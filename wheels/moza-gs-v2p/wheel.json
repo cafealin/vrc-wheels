@@ -1,0 +1,14 @@
+{
+  "id": "moza-gs-v2p",
+  "name": "GS V2P",
+  "maker": "Moza",
+  "diameterMm": 300,
+  "screen": null,
+  "author": "Virtual Real Cockpit",
+  "authorUrl": "https://virtualrealcockpit.com",
+  "source": "Modelled from the real wheel",
+  "license": "CC-BY-4.0",
+  "version": 1,
+  "appMin": "0.3.7",
+  "notes": "Real size, centred on the hub, facing +Z. The screen isn't fitted yet."
+}

@@ -104,6 +104,27 @@
       "updated": "2026-10-22"
     },
     {
+      "id": "moza-es",
+      "name": "ES",
+      "maker": "Moza",
+      "diameterMm": 280,
+      "screen": null,
+      "author": "Virtual Real Cockpit",
+      "authorUrl": "https://virtualrealcockpit.com",
+      "source": "Made with Astra from Moza's photos and photos of the real wheel, built in Blender",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "The stock ES wheel from the R3 and R5 bundles. Made with Astra from Moza's product photos and my own photos of the wheel. Real size, turns about the real steering shaft (the rim is flat-bottomed, so the hub is not the middle of the outline), facing +Z. No Moza logo on the centre badge. The paddles may sit a few mm too far in.",
+      "triangles": 172832,
+      "sizeBytes": 5571708,
+      "sha256": "cffc3e7b66fb6b82437241e745307b9c2ef8c633dab4a9ea7855d7c95823a8b7",
+      "widthMm": 280,
+      "glb": "wheels/moza-es/wheel.glb",
+      "preview": "wheels/moza-es/preview.png",
+      "updated": "2026-11-03"
+    },
+    {
       "id": "moza-gs-v2p",
       "name": "GS V2P",
       "maker": "Moza",

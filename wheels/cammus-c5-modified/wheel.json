@@ -1,0 +1,13 @@
+{
+  "id": "cammus-c5-modified",
+  "name": "C5 (with some homemade modifications)",
+  "maker": "Cammus",
+  "diameterMm": 291,
+  "screen": {},
+  "author": "elboracing",
+  "source": "Shared from the app (Virtual Real Cockpit 0.4.0)",
+  "license": "CC-BY-4.0",
+  "version": 1,
+  "appMin": "0.3.7",
+  "notes": "Shared on 2026-11-09."
+}

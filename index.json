@@ -2,6 +2,29 @@
   "schema": 1,
   "wheels": [
     {
+      "id": "cammus-c5-modified",
+      "name": "C5 (with some homemade modifications)",
+      "maker": "Cammus",
+      "diameterMm": 291,
+      "screen": {
+        "widthMm": 64.6,
+        "heightMm": 35.7
+      },
+      "author": "elboracing",
+      "source": "Shared from the app (Virtual Real Cockpit 0.4.0)",
+      "license": "CC-BY-4.0",
+      "version": 1,
+      "appMin": "0.3.7",
+      "notes": "Shared on 2026-11-09.",
+      "triangles": 27924,
+      "sizeBytes": 1742944,
+      "sha256": "811216d87fd0c166426695528e79964a1dce69f7eb803ed29d722ad681314fa4",
+      "widthMm": 291,
+      "glb": "wheels/cammus-c5-modified/wheel.glb",
+      "preview": "wheels/cammus-c5-modified/preview.png",
+      "updated": null
+    },
+    {
       "id": "fanatec-csl-elite-mclaren-gt3-v2",
       "name": "CSL Elite McLaren GT3 V2",
       "maker": "Fanatec",

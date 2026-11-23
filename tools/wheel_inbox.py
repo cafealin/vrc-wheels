@@ -91,6 +91,7 @@ def main():
     ap.add_argument('--axes', default='x,y,z', help='turn the model first, as normalize_wheel.py --axes')
     ap.add_argument('--width', type=float, help='rescale to this width in metres (default: keep the size)')
     ap.add_argument('--diameter', type=int, help='rim diameter in mm for wheel.json (default: the model width)')
+    ap.add_argument('--keep-pivot', action='store_true', help="put the sender's pivot (the shaft) at the origin instead of the outline's centre")
     ap.add_argument('--no-pr', action='store_true', help='leave the files in place, no branch or PR')
     a = ap.parse_args()
 
@@ -117,6 +118,9 @@ def main():
     target = a.width or width
     k = target / width
     shift = [-(lo[0] + hi[0]) / 2 * k, -(lo[1] + hi[1]) / 2 * k, 0.02 - hi[2] * k]
+    if a.keep_pivot:   # the shaft where the sender put it, not the outline's centre (an asymmetric wheel)
+        pv = remap(axes, sub.get('pivot') or [0, 0, 0])
+        shift[0], shift[1] = -pv[0] * k, -pv[1] * k
     move = lambda p: [c * k + s for c, s in zip(remap(axes, p), shift)]
     print(f'model {width * 1000:.0f} mm wide' + (f', rescaled to {target * 1000:.0f} mm' if a.width else ''))
 
@@ -126,7 +130,8 @@ def main():
     with open(src, 'wb') as f:
         f.write(glb)
     out = os.path.join(folder, 'wheel.glb')
-    subprocess.run([sys.executable, os.path.join(TOOLS, 'normalize_wheel.py'), src, out, f'--axes={a.axes}', '--width', repr(target)], check=True)
+    subprocess.run([sys.executable, os.path.join(TOOLS, 'normalize_wheel.py'), src, out, f'--axes={a.axes}', '--width', repr(target)]
+                   + (['--pivot', ','.join(repr(float(c)) for c in (sub.get('pivot') or [0, 0, 0]))] if a.keep_pivot else []), check=True)
 
     # the sender's screen fit, moved with the model, into the file the app reads it from
     sc = sub.get('screen')
@@ -140,7 +145,7 @@ def main():
         print('screen fit carried over')
     pivot = move(sub.get('pivot') or [0, 0, 0])
     off_mm = math.hypot(pivot[0], pivot[1]) * 1000
-    if off_mm > 5:
+    if off_mm > 5 and not a.keep_pivot:
         print(f'NOTE: the sender put the pivot {off_mm:.0f} mm from the model centre; the library puts the hub at the centre. Check the preview.')
 
     day = sub.get('received', '')[:10] or datetime.date.today().isoformat()
@@ -150,7 +155,7 @@ def main():
         'screen': {} if sc else None,
         'author': sub['credit'], 'source': f"Shared from the app (Virtual Real Cockpit {sub.get('app', '')})".replace(' )', ')'),
         'license': 'CC-BY-4.0', 'version': 1, 'appMin': '0.3.7',
-        'notes': f'Shared on {day}.' + (f' The sender\'s pivot was {off_mm:.0f} mm off centre.' if off_mm > 5 else ''),
+        'notes': f'Shared on {day}.' + (f' The sender\'s pivot was {off_mm:.0f} mm off centre.' if off_mm > 5 and not a.keep_pivot else ''),
     }
     with open(os.path.join(folder, 'wheel.json'), 'w', encoding='utf-8') as f:
         json.dump(meta, f, indent=2, ensure_ascii=False)

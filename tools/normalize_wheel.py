@@ -11,6 +11,9 @@ ap.add_argument('src'); ap.add_argument('dst')
 ap.add_argument('--axes', default='x,y,z')
 ap.add_argument('--width', type=float, default=0.32)
 ap.add_argument('--front', type=float, default=0.02)
+# --pivot: the shaft's point in the source model (source units): it goes to x = y = 0 instead of the box's centre, for a
+# wheel whose hub is not in the middle of its outline (a flat-bottomed rim, a side pod)
+ap.add_argument('--pivot', default=None)
 a = ap.parse_args()
 
 d = bytearray(open(a.src, 'rb').read())
@@ -44,6 +47,9 @@ mn = [min(p[i] for p in pts) for i in range(3)]
 mx = [max(p[i] for p in pts) for i in range(3)]
 k = a.width / (mx[0] - mn[0])
 shift = [-(mn[0] + mx[0]) / 2 * k, -(mn[1] + mx[1]) / 2 * k, a.front - mx[2] * k]
+if a.pivot:
+    pv = remap([float(c) for c in a.pivot.split(',')])
+    shift[0], shift[1] = -pv[0] * k, -pv[1] * k
 # pass 2: write positions (+ min / max) and normals
 for acc, off, stride in views('POSITION'):
     lo, hi = [1e30] * 3, [-1e30] * 3
